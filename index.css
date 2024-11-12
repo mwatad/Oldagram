@@ -3,6 +3,12 @@ html, body {
     padding: 0;
 }
 
+body {
+    width: 375px;
+    margin: 0 auto;
+    font-family: "Source Sans 3", sans-serif;
+}
+
 header {
     display: flex;
 }
@@ -26,4 +32,44 @@ header {
 
 .post .img {
     width: 100%;
+}
+
+.user-avatar, .avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.sep {
+    border-top: solid 1px #C6C6C6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.desc {
+    margin-left: 10px;
+}
+
+.name, .author {
+    font-weight: bold;
+}
+
+.symbol {
+    width: 23px;
+    margin: 10px 5px;
+}
+
+.likes {
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 8px;
 }
